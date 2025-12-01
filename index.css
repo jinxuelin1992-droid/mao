@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar hiding if needed */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
